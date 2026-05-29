@@ -5,6 +5,6 @@ st.title("Sales Forecasting Dashboard")
 
 st.write("ML Sales Forecasting Project")
 
-df = pd.read_csv("data/sales.csv")
+df = pd.read_csv("data/cleaned_sales.csv")
 
 st.dataframe(df.head())
